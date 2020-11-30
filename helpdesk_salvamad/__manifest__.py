@@ -1,5 +1,5 @@
 # Copyright 2020 TICOMSA
-# Salva Madrid - smadrid@ticomsa.com
+# Salva Madrid S - smadrid@ticomsa.com
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     "name": "Helpdesk Salva Madrid",
