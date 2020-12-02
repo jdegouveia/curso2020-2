@@ -217,4 +217,4 @@ msgstr "En Espera"
 #. module: helpdesk_santos
 #: model_terms:ir.ui.view,arch_db:helpdesk_santos.view_helpdesk_ticket_form
 msgid "label"
-msgstr "etiqueta"
+msgstr "etiqueta "
