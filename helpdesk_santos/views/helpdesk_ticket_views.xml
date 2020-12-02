@@ -19,7 +19,12 @@
     <field name="arch" type="xml">
       <form string="label">
         <header>
-          <field name="state" widget="statusbar" statusbar_visible="new,done"/>
+         <button string="Assign" name="set_assigned" type="object" attrs="{'invisible': [('state', '!=', 'new')]}"/>
+         <button string="Progress" name="set_progress" type="object" states="assigned"/>
+         <button string="Waiting" name="set_waiting" type="object" states="assigned,progress"/>
+         <button string="Done" name="set_done" type="object" states="assigned,progress,waiting" class="oe_highlight"/>
+         <button string="Cancel" name="set_cancel" type="object" states="assigned,progress,waiting,done"/>
+         <field name="state" widget="statusbar" statusbar_visible="new,done"/>
         </header>
         <sheet>
           <div>
