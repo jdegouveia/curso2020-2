@@ -1,0 +1,227 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_jdegouveia
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-11 12:22+0000\n"
+"PO-Revision-Date: 2021-02-11 12:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_jdegouveia
+#: model:res.groups,comment:helpdesk_jdegouveia.res_groups_helpdesk_user
+msgid ""
+"\n"
+"        The user will be able to browse some model.\n"
+"    "
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:res.groups,comment:helpdesk_jdegouveia.res_groups_helpdesk_manager
+msgid ""
+"\n"
+"        The user will be able to manage some model.\n"
+"    "
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Assign"
+msgstr "Atribuir"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__assigned
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__assigned
+msgid "Assigned"
+msgstr "Atribuido"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__user_id
+msgid "Assigned to"
+msgstr "Atribuido a"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__cancel
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.actions.act_window,help:helpdesk_jdegouveia.helpdesk_action_view
+msgid "Click to create a new Ticket"
+msgstr "Criar um novo ticket"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__corrective_action
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Corrective Action"
+msgstr "Ação corretiva"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__date
+msgid "Date"
+msgstr "Data"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__date_due
+msgid "Date Due"
+msgstr "Data limite"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__description
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Description"
+msgstr "Descrição"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,help:helpdesk_jdegouveia.field_helpdesk_ticket__corrective_action
+msgid "Detail of corrective action after the issue"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,help:helpdesk_jdegouveia.field_helpdesk_ticket__preventive_action
+msgid "Detail of preventive action after the issue"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__done
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Done"
+msgstr "Feito"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.ui.menu,name:helpdesk_jdegouveia.helpdesk_root_menu
+#: model:ir.ui.menu,name:helpdesk_jdegouveia.helpdesk_ticket_main_menu
+msgid "HelpDesk"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.module.category,name:helpdesk_jdegouveia.ir_module_category_helpdesk
+msgid "Helpdesk"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model,name:helpdesk_jdegouveia.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__id
+msgid "ID"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Main"
+msgstr "Principal"
+
+#. module: helpdesk_jdegouveia
+#: model:res.groups,name:helpdesk_jdegouveia.res_groups_helpdesk_manager
+msgid "Manager"
+msgstr "Gestor"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__new
+msgid "New"
+msgstr "Novo"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__preventive_action
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Preventive Action"
+msgstr "Ação prventiva"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__progress
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Progress"
+msgstr "Progresso"
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Quality"
+msgstr "Qualidade"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__state
+msgid "State"
+msgstr "Estado"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.actions.act_window,name:helpdesk_jdegouveia.helpdesk_action_view
+#: model:ir.ui.menu,name:helpdesk_jdegouveia.helpdesk_ticket_menu
+msgid "Ticket"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Ticket #"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_tree
+msgid "Tickets"
+msgstr ""
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields,field_description:helpdesk_jdegouveia.field_helpdesk_ticket__dedicated_time
+msgid "Time"
+msgstr "Tempo"
+
+#. module: helpdesk_jdegouveia
+#: model:res.groups,name:helpdesk_jdegouveia.res_groups_helpdesk_user
+msgid "User"
+msgstr "Utilizador"
+
+#. module: helpdesk_jdegouveia
+#: model:ir.model.fields.selection,name:helpdesk_jdegouveia.selection__helpdesk_ticket__state__waiting
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "Waiting"
+msgstr "Esperando"
+
+#. module: helpdesk_jdegouveia
+#: model_terms:ir.ui.view,arch_db:helpdesk_jdegouveia.view_helpdesk_ticket_form
+msgid "label"
+msgstr "Rótulo"
